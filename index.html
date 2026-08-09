@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>❤️ Happy Birthday Janet ❤️</title>
+
+    <meta name="description" content="A special birthday surprise for Janet.">
+
+    <meta name="theme-color" content="#ff4f91">
+
+    <!-- Google Font -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Main CSS -->
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Confetti -->
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+
+</head>
+
+<body>
+
+    <div id="loading-screen">
+
+        <div class="loader-heart">
+
+            ❤️
+
+        </div>
+
+        <h1>
+
+            Preparing Something Beautiful...
+
+        </h1>
+
+        <p>
+
+            Please wait...
+
+        </p>
+
+    </div>
+
+    <section id="intro-scene">
+
+        <div id="stars"></div>
+
+        <div id="twinkling-stars"></div>
+
+        <div id="shooting-stars"></div>
+
+        <div class="intro-overlay"></div>
+
+        <div class="intro-content">
+
+            <div id="intro-heart">
+
+                ❤️
+
+            </div>
+
+            <h2 id="introText">
+
+                I've been waiting...
+
+            </h2>
+
+            <button id="skipIntro">
+
+                Skip Intro
+
+            </button>
+
+        </div>
+
+    </section>
+
+    <section id="countdown-page">
+
+        <div class="countdown-card">
+
+            <h1>
+
+                🎁
+
+            </h1>
+
+            <h2>
+
+                Your Birthday Surprise
+
+            </h2>
+
+            <p>
+
+                This gift unlocks on
+
+                <strong>
+
+                    9 August 2026
+
+                </strong>
+
+            </p>
+
+            <div id="countdown">
+
+                <div class="time-box">
+
+                    <span id="days">
+
+                        00
+
+                    </span>
+
+                    <small>
+
+                        Days
+
+                    </small>
+
+                </div>
+
+                <div class="time-box">
+
+                    <span id="hours">
+
+                        00
+
+                    </span>
+
+                    <small>
+
+                        Hours
+
+                    </small>
+
+                </div>
+
+                <div class="time-box">
+
+                    <span id="minutes">
+
+                        00
+
+                    </span>
+
+                    <small>
+
+                        Minutes
+
+                    </small>
+
+                </div>
+
+                <div class="time-box">
+
+                    <span id="seconds">
+
+                        00
+
+                    </span>
+
+                    <small>
+
+                        Seconds
+
+                    </small>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section id="birthday-page">
+
+        <div class="background-glow"></div>
+
+        <div id="floating-hearts"></div>
+
+        <div id="floating-balloons"></div>
+
+        <div id="rose-petals"></div>
+
+        <div class="hero">
+
+            <h3 class="hero-small">
+
+                Today We Celebrate...
+
+            </h3>
+
+            <h1 class="hero-title">
+
+                HAPPY
+
+                <br>
+
+                BIRTHDAY
+
+            </h1>
+
+            <h1 class="janet-name">
+
+                JANET
+
+            </h1>
+
+            <p class="hero-subtitle">
+
+                A little surprise made with
+                ❤️ and a lot of love.
+
+            </p>
+
+            <button id="startExperience">
+
+                ❤️ Tap To Begin ❤️
+
+            </button>
+
+        </div>
+
+
+        <!-- MUSIC -->
+
+        <audio id="birthdayMusic" preload="auto" loop>
+            <source src="music/happy-birthday.mp3" type="audio/mpeg">
+        </audio>
+
+        <!-- LETTER SECTION -->
+
+        <section id="letter-section">
+
+            <div class="letter-card">
+
+                <h2>
+
+                    💌 A Letter For You
+
+                </h2>
+
+                <div id="typedLetter">
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section id="ending-section">
+
+            <div class="ending-content">
+
+                <div class="ending-heart">
+
+                    ❤️
+
+                </div>
+
+                <h1>
+
+                    I LOVE YOU
+
+                </h1>
+
+                <h2>
+
+                    More Than Words Can Explain
+
+                </h2>
+
+                <p>
+
+                    Happy Birthday,
+                    My Love.
+
+                </p>
+
+                <h3>
+
+                    — Israel ❤️
+
+                </h3>
+
+            </div>
+
+        </section>
+
+    </section>
+
+
+
+    <div id="sparkles"></div>
+
+    <div id="touch-hearts"></div>
+
+    <div id="fireworks"></div>
+
+
+    <footer>
+
+        <p>
+
+            Made just for you, Janet! 🎂
+        </p>
+
+    </footer>
+
+    <button id="musicToggle">
+
+        🎵
+
+    </button>
+
+    <button id="scrollTop">
+
+        ↑
+
+    </button>
+
+
+    <div id="loveQuotes">
+
+        <span>
+
+            "You are my greatest blessing."
+
+        </span>
+
+        <span>
+
+            "Every heartbeat reminds me of you."
+
+        </span>
+
+        <span>
+
+            "Forever begins with today."
+
+        </span>
+
+        <span>
+
+            "You make my world brighter."
+
+        </span>
+
+    </div>
+
+
+    <div id="secretMessage">
+
+        <div class="secret-card">
+
+            <h2>
+
+                ❤️ One Last Thing...
+
+            </h2>
+
+            <p>
+
+                If I had one wish today...
+
+                it would simply be to keep
+                seeing your smile for many
+                birthdays to come.
+
+            </p>
+
+            <button id="closeSecret">
+
+                Close
+
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
